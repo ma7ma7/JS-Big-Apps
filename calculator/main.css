@@ -1,0 +1,11 @@
+:root {
+    --main-color: #1b2939,
+    --main-color-down: #1b2939e0,
+    --hover-color: #6b63f9,
+    --first-text-color: #f6f6f8,
+    --second-text-color: #8c949b
+}
+
+body {
+    background-color: var(--main-color);
+}
