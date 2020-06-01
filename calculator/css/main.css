@@ -92,7 +92,7 @@ body {
     justify-content: space-between;
     margin-top: 30px;
 }
-/* Start the rifth side*/
+/* * Start the rifth side*/
 .container .right {
     background-color: var(--main-bg-second);
     flex-grow: 1;
@@ -107,7 +107,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* result */
+/* ? result */
 .container .right .calculos .result {
     display: flex;
     margin-bottom: 10px;
@@ -135,6 +135,29 @@ body {
 
 .container .right .calculos .result {
     flex-basis: 100%;
+}
+
+/* ? history */
+.container .right .calculos .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.container .right .calculos .history h2 {
+    font-weight: 400;
+}
+.container .right .calculos .history p:not(:nth-of-type(1)) {
+    color: var(--second-text-color);
+}
+
+.container .right .calculos .history p:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.container .right .calculos .history p:nth-of-type(3) {
+    font-size: 16px;
 }
 /* Start media queries */
 @media only screen and (min-width : 1367px) {
