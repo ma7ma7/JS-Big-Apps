@@ -92,7 +92,7 @@ body {
     justify-content: space-between;
     margin-top: 30px;
 }
-/* * Start the rifth side*/
+/* * Start the rigth side*/
 .container .right {
     background-color: var(--main-bg-second);
     flex-grow: 1;
@@ -188,5 +188,20 @@ body {
 }
 
 @media (max-width: 800px) {
-
+    .container .left {
+        width: 10%;
+        padding: 0;
+        margin: 0;
+    }
+    .container .left p,
+    .container .left h2 {
+        display: none;
+    }
+    .container .left .apps {
+        margin-top: 0px;
+    }
+    .square {
+        width: 100%;
+        height: 80px;
+    }
 }
